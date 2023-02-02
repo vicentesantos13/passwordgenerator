@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="tittle">
+            <h3>Password Generator</h3>
+        </div>
+        <div class="password">
+            <p class="text-password"></p>
+            
+            <img src="copy-4.png" alt="Copy to clipboard"/>
+        </div>
+        <div class="qtd-area">
+            <div class="text">Password length:</div>
+            <div class="qtd-buttons">
+                <button class="qtd-minus">-</button>
+                <div class="qtd">1</div>
+                <button class="qtd-more">+</button>
+            </div>
+        </div>
+        <div class="options">
+            <div class="upper">
+                <div class="text">Include uppercase letters</div>
+                <input type="checkbox" id="ucl" />
+            </div>
+            <div class="lower">
+                <div class="text">Iclude lowercase letters</div>
+                <input type="checkbox" id="lcl" />
+            </div>
+            <div class="numbers">
+                <div class="text">Include numbers</div>
+                <input type="checkbox" id="num" />
+            </div>
+            <div class="symbols">
+                <div class="text">Include symbols</div>
+                <input type="checkbox" id="sym" />
+            </div>
+        </div>
+        <div class="generate-button">
+            <button>Generate Password</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+<footer>Created by Vicente Santos</footer>
+
+</html>
